@@ -14,9 +14,9 @@ int main() {
         }
     }
 
-    // ===============================
+   
     // Posiciona o navio horizontal
-    // ===============================
+    
     int linhaH = 2;
     int colunaH = 4;
 
@@ -30,9 +30,9 @@ int main() {
         tabuleiro[linhaH][colunaH + 2] = 3;
     }
 
-    // ===============================
+    
     // Posiciona o navio vertical
-    // ===============================
+   
     int linhaV = 5;
     int colunaV = 1;
 
@@ -46,9 +46,9 @@ int main() {
         tabuleiro[linhaV + 2][colunaV] = 3;
     }
 
-    // ===============================
+    
     // Posiciona o navio diagonal principal
-    // ===============================
+    
     int linhaD1 = 0;
     int colunaD1 = 0;
 
@@ -62,9 +62,9 @@ int main() {
         tabuleiro[linhaD1 + 2][colunaD1 + 2] = 3;
     }
 
-    // ===============================
+    
     // Posiciona o navio diagonal secundária
-    // ===============================
+   
     int linhaD2 = 0;
     int colunaD2 = 9;
 
@@ -78,9 +78,7 @@ int main() {
         tabuleiro[linhaD2 + 2][colunaD2 - 2] = 3;
     }
 
-    // ===============================
-    // Imprime o título e cabeçalho
-    // ===============================
+
     printf("\n====== BATALHA NAVAL ======\n\n");
 
     // Letras do topo (A a J)
